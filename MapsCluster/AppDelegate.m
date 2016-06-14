@@ -1,24 +1,30 @@
 //
 //  AppDelegate.m
-//  MapsCluster
+//  BlueAirMapCluster
 //
-//  Created by Adam Barta on 6/14/16.
-//  Copyright © 2016 PVT. All rights reserved.
+//  Created by Adam Barta on 10/28/15.
+//  Copyright © 2015 flatcircle. All rights reserved.
 //
 
 #import "AppDelegate.h"
+@import CoreLocation;
 
-@interface AppDelegate ()
-
+@interface AppDelegate () <CLLocationManagerDelegate>
+@property (strong, nonatomic) CLLocationManager *locationManager;
 @end
 
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     return YES;
 }
+
+- (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
+{
+    NSLog(@"%@", [locations lastObject]);
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

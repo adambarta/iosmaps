@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  MapsCluster
+//  BlueAirMapCluster
 //
-//  Created by Adam Barta on 6/14/16.
-//  Copyright © 2016 PVT. All rights reserved.
+//  Created by Adam Barta on 10/28/15.
+//  Copyright © 2015 flatcircle. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

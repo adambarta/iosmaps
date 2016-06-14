@@ -13,6 +13,24 @@
 		664920071D10025100C34ABE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 664920051D10025100C34ABE /* Main.storyboard */; };
 		664920091D10025100C34ABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 664920081D10025100C34ABE /* Assets.xcassets */; };
 		6649200C1D10025100C34ABE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6649200A1D10025100C34ABE /* LaunchScreen.storyboard */; };
+		664920391D1002C400C34ABE /* CCHCenterOfMassMapClusterer.m in Sources */ = {isa = PBXBuildFile; fileRef = 664920161D1002C400C34ABE /* CCHCenterOfMassMapClusterer.m */; };
+		6649203A1D1002C400C34ABE /* CCHFadeInOutMapAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 664920181D1002C400C34ABE /* CCHFadeInOutMapAnimator.m */; };
+		6649203B1D1002C400C34ABE /* CCHMapClusterAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6649201B1D1002C400C34ABE /* CCHMapClusterAnnotation.m */; };
+		6649203C1D1002C400C34ABE /* CCHMapClusterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6649201D1D1002C400C34ABE /* CCHMapClusterController.m */; };
+		6649203D1D1002C400C34ABE /* CCHMapClusterControllerDebugPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = 6649201F1D1002C400C34ABE /* CCHMapClusterControllerDebugPolygon.m */; };
+		6649203E1D1002C400C34ABE /* CCHMapClusterControllerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 664920221D1002C400C34ABE /* CCHMapClusterControllerUtils.m */; };
+		6649203F1D1002C400C34ABE /* CCHMapClusterOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 664920251D1002C400C34ABE /* CCHMapClusterOperation.m */; };
+		664920401D1002C400C34ABE /* CCHMapTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 664920271D1002C400C34ABE /* CCHMapTree.m */; };
+		664920411D1002C400C34ABE /* CCHMapTreeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 664920291D1002C400C34ABE /* CCHMapTreeUtils.m */; };
+		664920421D1002C400C34ABE /* CCHMapViewDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6649202B1D1002C400C34ABE /* CCHMapViewDelegateProxy.m */; };
+		664920431D1002C400C34ABE /* CCHNearCenterMapClusterer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6649202D1D1002C400C34ABE /* CCHNearCenterMapClusterer.m */; };
+		664920441D1002C400C34ABE /* OCAlgorithms.m in Sources */ = {isa = PBXBuildFile; fileRef = 664920311D1002C400C34ABE /* OCAlgorithms.m */; };
+		664920451D1002C400C34ABE /* OCAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 664920331D1002C400C34ABE /* OCAnnotation.m */; };
+		664920461D1002C400C34ABE /* OCDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 664920351D1002C400C34ABE /* OCDistance.m */; };
+		664920471D1002C400C34ABE /* OCMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 664920381D1002C400C34ABE /* OCMapView.m */; };
+		6649204A1D10036300C34ABE /* ClusterAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 664920481D10036300C34ABE /* ClusterAnnotationView.m */; };
+		6649204C1D1003A400C34ABE /* locs.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6649204B1D1003A400C34ABE /* locs.txt */; };
+		6649204E1D1003C300C34ABE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6649204D1D1003C300C34ABE /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +44,45 @@
 		664920081D10025100C34ABE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6649200B1D10025100C34ABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6649200D1D10025100C34ABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		664920151D1002C400C34ABE /* CCHCenterOfMassMapClusterer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHCenterOfMassMapClusterer.h; sourceTree = "<group>"; };
+		664920161D1002C400C34ABE /* CCHCenterOfMassMapClusterer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHCenterOfMassMapClusterer.m; sourceTree = "<group>"; };
+		664920171D1002C400C34ABE /* CCHFadeInOutMapAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHFadeInOutMapAnimator.h; sourceTree = "<group>"; };
+		664920181D1002C400C34ABE /* CCHFadeInOutMapAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHFadeInOutMapAnimator.m; sourceTree = "<group>"; };
+		664920191D1002C400C34ABE /* CCHMapAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHMapAnimator.h; sourceTree = "<group>"; };
+		6649201A1D1002C400C34ABE /* CCHMapClusterAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHMapClusterAnnotation.h; sourceTree = "<group>"; };
+		6649201B1D1002C400C34ABE /* CCHMapClusterAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHMapClusterAnnotation.m; sourceTree = "<group>"; };
+		6649201C1D1002C400C34ABE /* CCHMapClusterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHMapClusterController.h; sourceTree = "<group>"; };
+		6649201D1D1002C400C34ABE /* CCHMapClusterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHMapClusterController.m; sourceTree = "<group>"; };
+		6649201E1D1002C400C34ABE /* CCHMapClusterControllerDebugPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHMapClusterControllerDebugPolygon.h; sourceTree = "<group>"; };
+		6649201F1D1002C400C34ABE /* CCHMapClusterControllerDebugPolygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHMapClusterControllerDebugPolygon.m; sourceTree = "<group>"; };
+		664920201D1002C400C34ABE /* CCHMapClusterControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHMapClusterControllerDelegate.h; sourceTree = "<group>"; };
+		664920211D1002C400C34ABE /* CCHMapClusterControllerUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHMapClusterControllerUtils.h; sourceTree = "<group>"; };
+		664920221D1002C400C34ABE /* CCHMapClusterControllerUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHMapClusterControllerUtils.m; sourceTree = "<group>"; };
+		664920231D1002C400C34ABE /* CCHMapClusterer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHMapClusterer.h; sourceTree = "<group>"; };
+		664920241D1002C400C34ABE /* CCHMapClusterOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHMapClusterOperation.h; sourceTree = "<group>"; };
+		664920251D1002C400C34ABE /* CCHMapClusterOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHMapClusterOperation.m; sourceTree = "<group>"; };
+		664920261D1002C400C34ABE /* CCHMapTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHMapTree.h; sourceTree = "<group>"; };
+		664920271D1002C400C34ABE /* CCHMapTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHMapTree.m; sourceTree = "<group>"; };
+		664920281D1002C400C34ABE /* CCHMapTreeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHMapTreeUtils.h; sourceTree = "<group>"; };
+		664920291D1002C400C34ABE /* CCHMapTreeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHMapTreeUtils.m; sourceTree = "<group>"; };
+		6649202A1D1002C400C34ABE /* CCHMapViewDelegateProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHMapViewDelegateProxy.h; sourceTree = "<group>"; };
+		6649202B1D1002C400C34ABE /* CCHMapViewDelegateProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHMapViewDelegateProxy.m; sourceTree = "<group>"; };
+		6649202C1D1002C400C34ABE /* CCHNearCenterMapClusterer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCHNearCenterMapClusterer.h; sourceTree = "<group>"; };
+		6649202D1D1002C400C34ABE /* CCHNearCenterMapClusterer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCHNearCenterMapClusterer.m; sourceTree = "<group>"; };
+		6649202F1D1002C400C34ABE /* OCAlgorithmDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAlgorithmDelegate.h; sourceTree = "<group>"; };
+		664920301D1002C400C34ABE /* OCAlgorithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAlgorithms.h; sourceTree = "<group>"; };
+		664920311D1002C400C34ABE /* OCAlgorithms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAlgorithms.m; sourceTree = "<group>"; };
+		664920321D1002C400C34ABE /* OCAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAnnotation.h; sourceTree = "<group>"; };
+		664920331D1002C400C34ABE /* OCAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAnnotation.m; sourceTree = "<group>"; };
+		664920341D1002C400C34ABE /* OCDistance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCDistance.h; sourceTree = "<group>"; };
+		664920351D1002C400C34ABE /* OCDistance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCDistance.m; sourceTree = "<group>"; };
+		664920361D1002C400C34ABE /* OCGrouping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCGrouping.h; sourceTree = "<group>"; };
+		664920371D1002C400C34ABE /* OCMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMapView.h; sourceTree = "<group>"; };
+		664920381D1002C400C34ABE /* OCMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCMapView.m; sourceTree = "<group>"; };
+		664920481D10036300C34ABE /* ClusterAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClusterAnnotationView.m; sourceTree = "<group>"; };
+		664920491D10036300C34ABE /* ClusterAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClusterAnnotationView.h; sourceTree = "<group>"; };
+		6649204B1D1003A400C34ABE /* locs.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = locs.txt; sourceTree = "<group>"; };
+		6649204D1D1003C300C34ABE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6649204E1D1003C300C34ABE /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +100,7 @@
 		66491FF01D10025000C34ABE = {
 			isa = PBXGroup;
 			children = (
+				6649204D1D1003C300C34ABE /* MapKit.framework */,
 				66491FFB1D10025000C34ABE /* MapsCluster */,
 				66491FFA1D10025000C34ABE /* Products */,
 			);
@@ -58,6 +117,10 @@
 		66491FFB1D10025000C34ABE /* MapsCluster */ = {
 			isa = PBXGroup;
 			children = (
+				6649204B1D1003A400C34ABE /* locs.txt */,
+				664920481D10036300C34ABE /* ClusterAnnotationView.m */,
+				664920491D10036300C34ABE /* ClusterAnnotationView.h */,
+				664920131D1002C400C34ABE /* vendor */,
 				66491FFF1D10025100C34ABE /* AppDelegate.h */,
 				664920001D10025100C34ABE /* AppDelegate.m */,
 				664920021D10025100C34ABE /* ViewController.h */,
@@ -77,6 +140,64 @@
 				66491FFD1D10025000C34ABE /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		664920131D1002C400C34ABE /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				664920141D1002C400C34ABE /* CCHMapClusterController */,
+				6649202E1D1002C400C34ABE /* OCMapView */,
+			);
+			path = vendor;
+			sourceTree = "<group>";
+		};
+		664920141D1002C400C34ABE /* CCHMapClusterController */ = {
+			isa = PBXGroup;
+			children = (
+				664920151D1002C400C34ABE /* CCHCenterOfMassMapClusterer.h */,
+				664920161D1002C400C34ABE /* CCHCenterOfMassMapClusterer.m */,
+				664920171D1002C400C34ABE /* CCHFadeInOutMapAnimator.h */,
+				664920181D1002C400C34ABE /* CCHFadeInOutMapAnimator.m */,
+				664920191D1002C400C34ABE /* CCHMapAnimator.h */,
+				6649201A1D1002C400C34ABE /* CCHMapClusterAnnotation.h */,
+				6649201B1D1002C400C34ABE /* CCHMapClusterAnnotation.m */,
+				6649201C1D1002C400C34ABE /* CCHMapClusterController.h */,
+				6649201D1D1002C400C34ABE /* CCHMapClusterController.m */,
+				6649201E1D1002C400C34ABE /* CCHMapClusterControllerDebugPolygon.h */,
+				6649201F1D1002C400C34ABE /* CCHMapClusterControllerDebugPolygon.m */,
+				664920201D1002C400C34ABE /* CCHMapClusterControllerDelegate.h */,
+				664920211D1002C400C34ABE /* CCHMapClusterControllerUtils.h */,
+				664920221D1002C400C34ABE /* CCHMapClusterControllerUtils.m */,
+				664920231D1002C400C34ABE /* CCHMapClusterer.h */,
+				664920241D1002C400C34ABE /* CCHMapClusterOperation.h */,
+				664920251D1002C400C34ABE /* CCHMapClusterOperation.m */,
+				664920261D1002C400C34ABE /* CCHMapTree.h */,
+				664920271D1002C400C34ABE /* CCHMapTree.m */,
+				664920281D1002C400C34ABE /* CCHMapTreeUtils.h */,
+				664920291D1002C400C34ABE /* CCHMapTreeUtils.m */,
+				6649202A1D1002C400C34ABE /* CCHMapViewDelegateProxy.h */,
+				6649202B1D1002C400C34ABE /* CCHMapViewDelegateProxy.m */,
+				6649202C1D1002C400C34ABE /* CCHNearCenterMapClusterer.h */,
+				6649202D1D1002C400C34ABE /* CCHNearCenterMapClusterer.m */,
+			);
+			path = CCHMapClusterController;
+			sourceTree = "<group>";
+		};
+		6649202E1D1002C400C34ABE /* OCMapView */ = {
+			isa = PBXGroup;
+			children = (
+				6649202F1D1002C400C34ABE /* OCAlgorithmDelegate.h */,
+				664920301D1002C400C34ABE /* OCAlgorithms.h */,
+				664920311D1002C400C34ABE /* OCAlgorithms.m */,
+				664920321D1002C400C34ABE /* OCAnnotation.h */,
+				664920331D1002C400C34ABE /* OCAnnotation.m */,
+				664920341D1002C400C34ABE /* OCDistance.h */,
+				664920351D1002C400C34ABE /* OCDistance.m */,
+				664920361D1002C400C34ABE /* OCGrouping.h */,
+				664920371D1002C400C34ABE /* OCMapView.h */,
+				664920381D1002C400C34ABE /* OCMapView.m */,
+			);
+			path = OCMapView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,7 +231,11 @@
 				TargetAttributes = {
 					66491FF81D10025000C34ABE = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = VN55QGX3UA;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -140,6 +265,7 @@
 				6649200C1D10025100C34ABE /* LaunchScreen.storyboard in Resources */,
 				664920091D10025100C34ABE /* Assets.xcassets in Resources */,
 				664920071D10025100C34ABE /* Main.storyboard in Resources */,
+				6649204C1D1003A400C34ABE /* locs.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +276,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				664920401D1002C400C34ABE /* CCHMapTree.m in Sources */,
+				6649203D1D1002C400C34ABE /* CCHMapClusterControllerDebugPolygon.m in Sources */,
+				6649204A1D10036300C34ABE /* ClusterAnnotationView.m in Sources */,
+				6649203E1D1002C400C34ABE /* CCHMapClusterControllerUtils.m in Sources */,
+				6649203F1D1002C400C34ABE /* CCHMapClusterOperation.m in Sources */,
+				664920451D1002C400C34ABE /* OCAnnotation.m in Sources */,
+				664920441D1002C400C34ABE /* OCAlgorithms.m in Sources */,
+				664920391D1002C400C34ABE /* CCHCenterOfMassMapClusterer.m in Sources */,
+				6649203C1D1002C400C34ABE /* CCHMapClusterController.m in Sources */,
+				664920411D1002C400C34ABE /* CCHMapTreeUtils.m in Sources */,
+				664920461D1002C400C34ABE /* OCDistance.m in Sources */,
+				664920421D1002C400C34ABE /* CCHMapViewDelegateProxy.m in Sources */,
+				6649203A1D1002C400C34ABE /* CCHFadeInOutMapAnimator.m in Sources */,
+				664920431D1002C400C34ABE /* CCHNearCenterMapClusterer.m in Sources */,
+				6649203B1D1002C400C34ABE /* CCHMapClusterAnnotation.m in Sources */,
+				664920471D1002C400C34ABE /* OCMapView.m in Sources */,
 				664920041D10025100C34ABE /* ViewController.m in Sources */,
 				664920011D10025100C34ABE /* AppDelegate.m in Sources */,
 				66491FFE1D10025000C34ABE /* main.m in Sources */,
@@ -264,6 +406,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MapsCluster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.MapsCluster;
@@ -275,6 +418,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MapsCluster/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.MapsCluster;
